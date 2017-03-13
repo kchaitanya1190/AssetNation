@@ -1,0 +1,10 @@
+
+<browserList>
+
+<browser name="chrome">
+                <type>Chrome</type>
+                <platform>windows</platform>
+                <version>node_53</version>
+</browser>
+
+</browserList>

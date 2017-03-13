@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Java\jdk1.7.0_45\bin\java" -jar .\AssetNation\selenium-server-standalone-2.47.1.jar -role node -hub http://localhost:7777/grid/register

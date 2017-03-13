@@ -1,0 +1,25 @@
+<testConfigurations>	
+
+	<!-- Keyword driven configurations -->
+
+<testConfig run="false">
+		<Application>AssetNation</Application>
+		<URL>https://qa.equipmentone.com</URL>
+		<testcases>1-49,56,58,60,61,63,64,67,69,75-84,86-176,178-188,190-387,389-392,394-412,414,416-513,515,517-519,522-525,528,530-536,539-545,547-551,553-556,560-573,575-650,651-795</testcases>
+		<browser>chrome</browser>
+		<testDataSource>AssetNation-QA.xls</testDataSource>
+	</testConfig>
+
+<testConfig run="true">
+		<Application>AssetNation</Application>
+		<URL>https://toyota-ess-qa.equipmentone.com</URL>
+		<testcases>1-401</testcases>
+		<browser>chrome</browser>
+		<testDataSource>TOYOTA-QA.xls</testDataSource>
+	</testConfig>
+	
+</testConfigurations>
+
+
+	
+	

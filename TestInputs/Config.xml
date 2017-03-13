@@ -1,0 +1,38 @@
+<testConfigurations>	
+
+	<!-- Keyword driven configurations -->
+ 
+	
+	<testConfig run="false">
+		<Application>AssetNation</Application>
+		<URL>https://qa.equipmentone.com</URL>
+		<testcases>17</testcases>
+		<browser>chrome</browser>
+		<testDataSource>AssetNation.xls</testDataSource>
+	</testConfig>
+	
+	<testConfig run="false">
+		<Application>AssetNation</Application>
+		<URL>https://build.equipmentone.com</URL>
+		<testcases>227-272,282,283</testcases>
+		<browser>chrome</browser>
+		<testDataSource>TOYOTA-QA.xls</testDataSource>
+	</testConfig>
+	
+	<testConfig run="false">
+		<Application>AssetNation</Application>
+		<URL>https://toyota-ess-qa.equipmentone.com/</URL>
+		<testcases>1-401</testcases>
+		<browser>Chrome</browser>
+		<testDataSource>TOYOTA-QA.xls</testDataSource>
+	</testConfig>
+	
+	<testConfig run="true">
+		<Application>AssetNation</Application>
+		<URL>https://toyota-ess-build.equipmentone.com/</URL>
+		<testcases>1-143</testcases>
+		<browser>chrome</browser>
+		<testDataSource>Toyota-BUILDSMOKE.xls</testDataSource>
+	</testConfig>
+	  	
+</testConfigurations>

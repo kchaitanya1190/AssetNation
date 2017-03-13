@@ -1,0 +1,14 @@
+[0520/201021:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[0520/201021:ERROR:process_reader_win.cc(141)] SuspendThread: Access is denied. (0x5)
+[0520/201021:ERROR:exception_snapshot_win.cc(57)] thread ID 2352 not found in process
+[0520/201021:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[1111/201521:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1111/201521:ERROR:exception_snapshot_win.cc(87)] thread ID 4060 not found in process
+[1111/201521:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1111/201521:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1111/230955:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1111/230955:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1111/230955:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[1111/230955:ERROR:process_reader_win.cc(114)] NtOpenThread: An invalid Client ID was specified.  (0xc000000b)
+[1111/230955:ERROR:exception_snapshot_win.cc(87)] thread ID 7196 not found in process
+[1111/230955:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
